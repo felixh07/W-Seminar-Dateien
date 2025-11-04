@@ -18,16 +18,16 @@ void setup() {
         Serial.println(F("SSD1306 nicht gefunden"));
         for (;;);
     }
-  
+
+}
+
+void loop() {
+
   display.clearDisplay();
   display.setTextSize(2);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
   display.println("OLED Test");
   display.display();
-
-}
-
-void loop() {
   
 }
