@@ -18,7 +18,12 @@ void setup() {
     Serial.begin(115200);
 
     Wire.begin(I2C_SDA, I2C_SCL);
-
+    
+if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { 
+        Serial.println(F("SSD1306 nicht gefunden"));
+        for (;;);
+    }
+    
     WiFi.mode(WIFI_STA);
     WiFi.disconnect();  
 }
