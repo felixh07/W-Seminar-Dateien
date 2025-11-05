@@ -219,7 +219,7 @@ void loop() {
   display.clearDisplay();
   display.setTextSize(2);
   display.setCursor(0, 20);
-  display.print("BLE: ");
+  display.print("Pax: ");
   display.println(bleCount);
   display.display();
 
