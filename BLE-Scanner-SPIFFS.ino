@@ -23,8 +23,8 @@ const int rssiLimit = -80;
 unsigned long lastSave = 0;
 const unsigned long SAVE_INTERVAL = 60000; //(in Millisekunden)
 
-const char* ssid = "F"; //WLAN Name einfügen
-const char* password = "99999999"; //WLAN Passwort einfügen
+const char* ssid = "WLAN-Name"; //WLAN Name einfügen
+const char* password = "WLAN-Passwort"; //WLAN Passwort einfügen
 
 WiFiServer server(80);
 bool serverRunning = false;
