@@ -3,10 +3,10 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-extern "C" {
-  #include "esp_wifi.h"
-  #include "esp_wifi_types.h"
-}
+
+#include "esp_wifi.h"
+#include "esp_wifi_types.h"
+
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
