@@ -6,10 +6,10 @@
 #include <SPIFFS.h>
 #include <time.h>
 
-extern "C" {
-  #include "esp_wifi.h"
-  #include "esp_wifi_types.h"
-}
+
+#include "esp_wifi.h"
+#include "esp_wifi_types.h"
+
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
